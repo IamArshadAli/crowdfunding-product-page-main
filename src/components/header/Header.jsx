@@ -11,7 +11,7 @@ const Header = () => {
 
   return (
     <header
-      className={`monitor-bg flex min-h-[18.75rem] justify-between px-6 py-8 md:px-12 md:py-10 lg:px-20 xl:min-h-[25rem] xl:px-[10.25rem] xl:py-12 ${
+      className={`monitor-bg flex min-h-[18.75rem] justify-between px-6 py-8 md:px-12 md:py-10 lg:px-20 xl:min-h-[25rem] xl:px-[10.25rem] xl:py-12 transition-all ${
         !isOpen && "relative"
       }`}
     >
