@@ -1,0 +1,3 @@
+#project::before {
+    content: url(../../assets/images/logo-mastercraft.svg);
+}
